@@ -1,2 +1,35 @@
-/.env
+# dependencies
 node_modules
+
+# builds
+dist
+build
+out
+.next
+
+# turborepo
+.turbo
+
+# testing
+coverage
+.nyc_output
+
+# typescript
+*.tsbuildinfo
+
+# env
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# os / editor
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea

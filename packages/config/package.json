@@ -1,0 +1,20 @@
+{
+  "name": "@giftplus/config",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist *.tsbuildinfo"
+  },
+  "devDependencies": {
+    "@giftplus/eslint-config": "workspace:*",
+    "@giftplus/typescript-config": "workspace:*",
+    "eslint": "^9.39.5",
+    "typescript": "^6.0.3"
+  }
+}

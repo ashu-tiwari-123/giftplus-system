@@ -1,0 +1,7 @@
+{
+  "extends": "@giftplus/typescript-config/base.json",
+  "compilerOptions": {
+    "composite": true
+  },
+  "include": ["**/*.ts"]
+}
